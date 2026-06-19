@@ -3,7 +3,7 @@ class Solution:
     def isValid(self, s: str) -> bool:
         
         stack = []
-        brackets = { ")" : "(" , "]" : "[" , "}" : "{"}
+        brackets = { ")" : "(" , "]" : "[" , "}" : "{" }
 
         for char in s:
             if char in brackets:
